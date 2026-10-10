@@ -1,0 +1,4 @@
+interface:
+  display_name: "Consulting PPT"
+  short_description: "运用 Jeff Su 视频中的五项方法，组织咨询PPT的故事、数据比较、颜色和图表"
+  default_prompt: "请使用 $consulting-ppt，按视频中的五项方法，将我提供的资料整理成咨询风格PPT。"
