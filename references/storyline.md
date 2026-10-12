@@ -1,80 +1,140 @@
-# 数据比较与故事结构
+# Building the Storyline
 
-## 给数字增加背景：00:23–02:13
+## Contents
+- Governing thought
+- SCQA in depth
+- The pyramid in depth
+- Choosing a deck shape
+- Writing action titles
+- Flow between slides
+- Ghost-deck template
+- Worked example
+- Live versus read-ahead decks
 
-视频先展示 BCG 职场 AI 报告中的两项结果：52% 的受访者感到乐观，30% 感到担忧。加入五年前的调查后，这两个数字形成明确的变化方向：乐观从 35% 升至 52%，担忧从 40% 降至 30%。同样的当前值，通过比较产生了更清晰的故事。
+## Governing thought
 
-页面把两个年份的同类数据配对排列，读者可以直接看到差距。制作时找出最能说明问题的参照，把它放到主要数字旁边。标题概括这一比较带来的发现，图表呈现具体变化。
+Before any slide exists, write one sentence that holds the whole deck: **who should do what, why, and with what payoff.** It sits at the top of the pyramid and becomes the first line of the executive summary.
 
-视频给出三种常用比较方式：
+> Cut new store openings from 200 to 120 next year and redirect the freed capital to same-store productivity and three city pilots, adding an estimated 120 million to 2027 operating profit.
 
-| 比较方式 | 视频中的举例 | 在页面上呈现的关系 |
+Treat it as a hypothesis. Write the answer you expect, list the three things that must be true for it to hold, and let those become the supporting reasons. When the evidence contradicts a reason, revise the reason; the storyline should follow the facts. If the governing thought will not come together, return to the evidence and finish the analysis; layout follows once the answer is clear.
+
+When the material is rich, build an evidence table first: each row a fact or number, its definition and period, and any caveat that must travel with it. Flag conflicts and gaps. Then draft two or three candidate governing thoughts, choose the one the evidence supports best and the decision needs most, and expand it into the pyramid.
+
+## SCQA in depth
+
+- **Situation** states something the audience already agrees with, so the deck starts on common ground. Keep it short.
+- **Complication** is the change or gap that makes the situation worth discussing. Specific complications, with a number, create momentum: "same-store growth fell from 9% to 2% while store count doubled" pulls harder than "growth is slowing".
+- **Question** is what a thoughtful reader would ask next. A good complication makes it arrive on its own; if the question feels forced, revisit the complication.
+- **Answer** is the governing thought.
+
+SCQA also works inside a deck. A section can open with its own mini-SCQA, and a single slide can use the same movement: show the current state, show the change or tension, then pose the question the following slides resolve.
+
+Example from McKinsey's State of AI report: generative AI is early yet already widely adopted (situation); many companies have not yet addressed its risks while some leaders are pulling ahead (complication); what are the leaders doing to manage the risks? (question); the body answers.
+
+## The pyramid in depth
+
+Three checks keep the structure sound:
+
+- **Vertical logic.** Read upward: each level should be the "so what" of the level below. Read downward: each level should answer "why do you say that?" or "how do you know?"
+- **Horizontal logic.** Reasons on the same level are MECE and ordered by a visible principle (chronology, structure such as people-process-technology, or importance). Three reasons is typical; two or four are fine when the content calls for it.
+- **Answer first.** Give the conclusion before the explanation at every level: deck, section, slide.
+
+The executive summary is the top two layers of the pyramid on one page: the answer, the reasons (each with one proof number), and the decision requested.
+
+## Choosing a deck shape
+
+Start from the audience's state of mind. Answer-first fits most decisions.
+
+| Shape | Fits when | Skeleton |
 |---|---|---|
-| 时间比较 | 收入与去年同期、上周同期比较；AI 态度与五年前比较 | 现在相对过去发生了什么变化 |
-| 同类对标 | 国家与国家、公司与公司比较 | 当前对象在同类中表现如何 |
-| 行业水平比较 | 公司数据与行业平均水平比较 | 当前表现高出或低于参照多少 |
+| Answer-first | Executives must decide and time is short | Executive summary, reasons 1-3 each with evidence, risks and mitigations, next steps |
+| Diagnose then prescribe | The audience must first accept the problem | Symptoms, root causes (issue tree), recommendation, roadmap |
+| Options comparison | Several viable options and some disagreement | Criteria, each option, scoring matrix, recommendation, risks |
+| Status update | Recurring steering committees | Progress versus plan, deviations and causes, decisions needed |
+| Discovery narrative | The audience resists the answer, or the finding is counterintuitive | Shared starting point, the surprising finding, the reasoning, the answer |
 
-贝恩农业案例展示埃塞俄比亚人均粮食产量增长 63%，同时给出其他国家分组的 12% 中位数。两个数字共同呈现其增长表现。应用这种结构时，将主结果与比较值放在同一信息块中，让读者一眼看出相对位置。
+A discovery narrative may hold the answer back for a couple of slides, within the first third of the deck, and the read-ahead version keeps the executive summary.
 
-### 用比较推进下一页
+## Writing action titles
 
-比较还能产生下一个问题。BCG 案例先让读者看到担忧比例下降，接着追问“这段时间发生了什么？主要驱动因素是什么？”后续页面讲到 ChatGPT、Midjourney、Google Bard 等面向消费者的工具，让人们更加熟悉 AI。
+An action title is a complete sentence with a subject, a verb, and a quantified conclusion. It tells the reader what to take from the slide so the body can prove it.
 
-据此安排页面衔接：先呈现变化，再提出变化背后的问题，接着解释促成变化的因素。一组数字由此成为整段叙事的起点。
-
-## SCQA：02:14–03:53
-
-SCQA 包括情景、冲突、问题和答案。报告开头用情景和冲突建立一个需要回答的问题，后续内容持续回答它。
-
-| 要素 | 页面承担的作用 | BCG 职场 AI 案例 |
+| You want to say | Pattern | Example |
 |---|---|---|
-| Situation 情景 | 建立故事背景 | 受访者对 AI 的态度比五年前更加积极 |
-| Complication 冲突 | 提出背景中的张力 | 不同群体的积极程度存在差距，人们仍有根深蒂固的担忧 |
-| Question 问题 | 将张力转成报告要回答的问题 | 应该采取什么行动来弥合差距？ |
-| Answer 答案 | 用正文分析与结尾建议回应问题 | 后续报告围绕这一问题展开，末页给出三项建议 |
+| A trend | X moved from a to b over T, with implication | Same-store growth fell from 9% to 2% in three years and now trails the industry |
+| A comparison | X is higher or lower than Y by how much | Option B pays back eight months faster than Option A |
+| A composition | Most of the change comes from here | Nearly 80% of the margin decline comes from rent and new-store ramp-up |
+| A cause | Because of A, B | New stores now take about 15 months to mature, which magnifies early losses |
+| A recommendation | Do this, for this payoff | Cut new openings to 120 and redirect capital to productivity, adding 120M in profit |
 
-先用一句话写情景，再写出其中的冲突，让问题自然出现。随后把正文各部分接到这个问题上，结尾归纳答案。视频通过执行摘要逐段展示这条关系；现场讲解时可以依次突出各段，让读者跟随故事推进。
+Topic titles tell the reader where they are; action titles tell them what to think. Rewrite one into the other:
 
-### 麦肯锡生成式 AI 案例
-
-情景是生成式 AI 仍处于早期阶段，却已经广泛普及。冲突是许多企业尚未充分处理这项技术带来的风险，同时一些领先企业已在应用方面取得先机。由此引出的问题是：领先企业采取了哪些做法来应对风险？后续内容围绕这个问题展开。
-
-视频指出，问题可以通过前文自然显现。制作时让情景与冲突共同指向一个清楚的问题，再用后续内容逐步给出答案。
-
-SCQA 还可以用于单页图形：先交代当前状态，再呈现其中的变化或张力，最后引出问题与回应。视频以贝恩单页案例说明这一用法。
-
-## 金字塔原理：04:11–05:45
-
-先说主要观点，再给出理由。视频用“我关注了杰夫，因为我喜欢他的实用技巧、讽刺和玩笑”说明这种顺序：读者先知道结论，再理解支撑结论的几个原因。
-
-汇报时把主要观点放在最前面，接着展示最重要的发现，再展开相关分析。标题直接表达本页要传达的判断，主体承接解释。整份汇报也采用同样顺序：先说建议做什么，再解释发现了什么问题。
-
-### 贝恩元宇宙案例
-
-报告要回答“元宇宙需要多久才能普及？”页面先给出“还需要 5 至 10 年”的回答，随后展示智能手机、游戏机、互联网和笔记本电脑等技术的发展时间，解释这一判断的由来。
-
-应用时将答案放在标题或开篇位置，将支撑答案的关键发现紧接其后，再按需要展开分析细节。读者先抓住报告的主要观点，随后沿理由向下阅读。
-
-## 把两种结构用在同一份报告中
-
-SCQA 建立“为什么会提出这个问题、报告要回答什么”的故事。金字塔原理安排“先给答案、再展开理由”的阅读顺序。
-
-先写好情景、冲突、问题与答案，明确整稿的主线。进入具体汇报时，用主要观点和关键理由组织开篇，并将各页标题写成相应观点。后续页面逐层展开，让读者始终知道当前内容在回答哪个问题。
-
-## 将故事线落实到逐页标题
-
-先草拟标题与页面主体。规划时用完整句子写清观点，试排时压缩成容易扫读的标题。围绕同一个主要观点安排相关比较与说明，并根据实际页面调整措辞和展开顺序。
-
-| 页面材料 | 结论标题写法 |
+| Topic title | Action title |
 |---|---|
-| 2023 年与 2018 年的乐观、担忧比例 | 人们对 AI 更加乐观，担忧比例较五年前下降 |
-| 埃塞俄比亚增长 63%，比较组中位数为 12% | 埃塞俄比亚粮食产量增长明显高于比较组水平 |
-| 元宇宙与其他技术的发展时间比较 | 元宇宙还需要 5 至 10 年才能普及 |
+| East China market analysis | East China growth is slowing, mainly because of channel inventory |
+| Competitive landscape | The top three hold 70% of share, so new entrants must start in lower-tier markets |
+| Financial overview | Revenue grew 28%, but margin fell 3.1 points as rent rose |
 
-将标题按演示顺序连读，查看问题怎样提出、答案何时出现、理由如何展开。相邻页通过一个具体问题衔接，例如“担忧比例下降了 → 哪些变化让人们更加熟悉 AI”。用[故事线与逐页设计模板](storyline-template.md)完成这一过程。
+**Plan long, set short.** While planning, write each title in full so the thinking is complete. At layout time, tighten it so it reads in one glance: keep the subject, the judgment, and the key number; move the period, scope, and other background into the chart header or the body; use short verbs. "The investment needs 3.47% more transactions for a one-year payback" tightens to "One-year payback requires 3.5% more visits". When two lines are needed, break at a natural phrase boundary. Read the tightened titles again in sequence to confirm the story still flows.
 
-## 在排版中压缩标题
+Within a section, keep title sentence patterns parallel so the reader recognizes the rhythm.
 
-标题优先保留主体、判断和关键数字，将时期、范围等背景放到相邻说明中。英文标题可以用短动词和紧凑句式，例如将 “The investment needs 3.47% more transactions for a one-year payback” 压缩为 “One-year payback requires 3.5% more visits”。中文采用同样方法，直接写出最值得记住的发现或动作。
+## Flow between slides
 
-查看实际渲染后的行数、断行和主体空间。长标题先通过删去重复背景、缩短词组改善，再安排必要的两行断句。调整后的标题继续与前后页连读，使整稿的故事连贯。
+**Section rhythm: claim, proof, so-what, bridge.** A section opens with its claim (a divider or first slide title), supplies one to three slides of proof, closes with a so-what sentence about what the section means for the decision, and bridges to the next section with the question it leaves open ("Since the problem is in new stores rather than old ones, which kind of new store drags most?").
+
+**Bridges between slides.** A comparison naturally raises a question, and the next slide can answer it: worry fell by ten points, so what happened over those five years? Writing the bridge question in the ghost deck makes adjacent slides feel like a conversation.
+
+**A hero slide.** Decide which one or two slides the audience should remember: the most surprising finding or the clearest gap. Give it the strongest visual weight (a large chart or number, the accent color used once) and place the so-what right after it.
+
+**Ending.** Close on the decision: what the reader should approve, who owns each action, and by when. Echo the opening complication if it fits ("we started with the question of growth quality; after these three moves each new store earns what it did in 2023"). An appendix, if any, gets a short contents slide and sits after the closing slide.
+
+## Ghost-deck template
+
+Fill one row per slide before building anything.
+
+| # | Judgment the reader should make | Action title | Evidence form | Reference point | Accent lands on | Bridge to next slide |
+|---|---|---|---|---|---|---|
+| 1 | Accept the recommendation | Executive summary sentence | Text pyramid | - | - | Why is growth quality falling? |
+| 2 | Judge whether growth quality fell | Full-sentence title | Big numbers | Last year, industry average | The two declining metrics | What is driving the margin drop? |
+
+Evidence forms to choose from: funnel (conversion and loss), path diagram (from today to target), landscape (players and share), capability stack (layered capabilities), waterfall (drivers of change), matrix (options against criteria), chart, table. Choose the object that makes the title's claim visible; the title is the sentence that object proves.
+
+## Worked example
+
+A fictional coffee chain (all figures illustrative) deciding whether to keep opening 200 stores a year.
+
+**Governing thought.** Cut new openings to 120 and redirect the capital to same-store productivity and three city pilots, adding about 120M to 2027 operating profit.
+
+**SCQA.** Store count doubled to 1,200 over three years with revenue growing 28% a year (situation). Same-store growth fell from 9% to 2%, new stores now take about 15 months instead of 9 to mature, and operating margin fell 3.1 points (complication). Should the chain keep opening 200 stores a year? (question). No: reallocate as above (answer).
+
+**Pyramid.**
+
+```
+Reallocate: 120 openings + productivity + pilots
+|- Growth quality is falling      -> big-number slide, same-store growth chart
+|- Rent and ramp-up consume margin -> margin waterfall, ramp-up curves
+`- Reallocating capital pays more  -> options matrix, three-action breakdown, roadmap
+```
+
+The three reasons describe the current state, its causes, and the remedy, so together they support the governing thought without overlapping.
+
+**Slide titles, in order.**
+
+1. Slow openings, raise store productivity (cover)
+2. Cut openings to 120 and redirect capital to productivity and three city pilots (executive summary)
+3. Stores doubled and revenue grew 28% a year, but growth quality is falling (big numbers, each with a reference point)
+4. Same-store growth fell from 9% to 2% in three years and now trails the industry (clustered column, company in accent, industry in grey)
+5. Margin fell 3.1 points, and nearly 80% of the drop comes from rent and new-store ramp-up (waterfall; hero slide)
+6. New stores now take about 15 months to mature, up from 9, magnifying early losses (line chart of two cohorts)
+7. Option B scores best on return, risk, and feasibility (Harvey-ball matrix with the recommended column tinted)
+8. Option B has three independent moves worth about 120M together (three columns, each ending in a profit figure that sums to the headline)
+9. Rollout takes 12 months in three phases, with the first 90 days fixing site and refit lists (roadmap)
+10. Next step: the board needs to decide three things this month (table with owners and dates)
+
+Reading only the titles gives problem (3-4), causes (5-6), remedy (7-8), and action (9-10). Slide 5 is the hero: the first four slides build toward it and the remaining slides respond to it. The profit figures on slide 8 add up to the headline number on slide 2, so the audience can check the arithmetic themselves.
+
+## Live versus read-ahead decks
+
+A live deck uses larger type, fewer words, and speaker notes; the presenter carries the explanation. A read-ahead deck must explain itself, so it can hold denser pages with fuller annotations and an executive summary that stands alone. Decide which the user needs (it is usually clear from context) and set density to match.
