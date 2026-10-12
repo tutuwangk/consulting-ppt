@@ -4,28 +4,28 @@
 - Layout grid
 - Type scale
 - Hierarchy and whitespace
-- Color system
+- Color palette
 - Charts
 - Tables
 - Shapes, icons, and diagrams
 - Slide compositions
 - Common slide types
 
-The aim of every choice below is that the reader finds the point of the slide within about three seconds. Treat the numbers as sensible defaults and adjust them to the content, the template, and the brand.
+The aim of every choice below is that the reader finds the point of the slide within about three seconds. The numbers are starting points; the content, the template, and the user's brand decide where they land. Chart choice by task and the principles of color live in `SKILL.md` (techniques 4 and 5); this file adds the craft around them.
 
 ## Layout grid
 
-Design on a 16:9 canvas (13.33 x 7.5 in). Margins of 0.5-0.6 in all around, 0.3 in between blocks.
+A 16:9 canvas (13.33 x 7.5 in) with margins of about 0.5-0.6 in and about 0.3 in between blocks gives a comfortable frame.
 
 | Zone | Position | Notes |
 |---|---|---|
 | Section tracker (optional) | y 0.25 | 11pt grey, such as "1 Diagnosis" |
 | Action title | x 0.6, y 0.55, width about 12.1, height about 1.0 | Top-left, bold, up to two lines |
-| Body | y 1.9 to 6.75 | One core visual; a takeaway panel about 3.6 in wide on the right when the chart needs interpretation |
-| So-what banner (optional) | y 6.0 to 6.7 | One sentence that states what the slide means |
-| Footer | y 6.95 | Source line and footnotes in 10pt grey on the left, page number on the right |
+| Body | y 1.9 to 6.75 (ending at about 5.9 when a banner is present) | One core visual; a takeaway panel about 3.6 in wide on the right when the chart needs interpretation |
+| So-what banner (optional) | y 6.0 to 6.7 | A band carrying one sentence that states what the slide means |
+| Footer | y about 6.9, inside the bottom margin as running footers sit | Source line and footnotes in 10pt grey on the left, page number on the right |
 
-Keep these positions identical across similar slides, so title, source, and page number stay put when the reader turns the page. Align blocks to shared left edges, top edges, and baselines, and space equivalent items equally. Side-by-side charts share a top edge and baseline.
+Identical positions across similar slides keep title, source, and page number steady when the reader turns the page. Blocks aligned to shared left edges, top edges, and baselines, with equal spacing between equivalent items, give the page a calm structure; side-by-side charts share a top edge and baseline.
 
 ## Type scale
 
@@ -38,26 +38,27 @@ Action titles are sentences, so 24-28pt bold fits two lines comfortably (the lar
 | Action title | 24-28pt bold |
 | Panel and card headings | 16-18pt bold |
 | Body text and bullets | 14-16pt |
-| Chart labels and table cells | 12-14pt |
+| Chart labels | 12-14pt |
+| Table cells | 14pt (12pt for dense lookup tables) |
 | Source and footnotes | 10pt |
 
-Use at most two font families across the deck: one sans-serif family such as Arial or Calibri for Latin text. For Chinese, Japanese, or Korean text choose a family with full coverage, such as Microsoft YaHei or Noto Sans CJK, and check the render, since fallback fonts change widths.
+One sans-serif family, two at most, keeps the deck cohesive; Arial or Calibri suit Latin text. For Chinese, Japanese, or Korean text, a family with full coverage such as Microsoft YaHei or Noto Sans CJK works well, and checking the render matters because fallback fonts change widths.
 
 ## Hierarchy and whitespace
 
 The eye goes first to what is largest, boldest, and highest in contrast, so let visual weight follow importance.
 
-- Give each slide one focal point: a large number, a highlighted bar, an emphasized line.
-- Make adjacent levels of the type scale clearly different in size or weight.
-- Place related items close together and separate groups with whitespace; the gap itself signals grouping, so extra boxes and rules are rarely needed.
-- Keep bullets to three to five per block, each within two lines, left-aligned. Bold only the key phrase.
-- Keep a number and its unit together ("3.1 points", "$3.9m") so a line break never separates them.
-- Use light-grey panels or cards to group content, and keep their fill and corner style consistent.
+- One focal point per slide: a large number, a highlighted bar, an emphasized line.
+- Adjacent levels of the type scale read best when they differ clearly in size or weight.
+- Related items close together and groups separated by whitespace: the gap itself signals grouping, which often makes extra boxes and rules unnecessary.
+- Three to five bullets per block, each within two lines and left-aligned, with bold on the key phrase only.
+- A number and its unit travel together ("3.1 points", "$3.9m"), so a line break never separates them.
+- Light-grey panels or cards group content; one fill and corner style across the deck keeps them consistent.
 - Consulting pages can be denser than presentation slides as long as three layers stay distinct: title, body, annotations.
 
-## Color system
+## Color palette
 
-A starting palette (replace the primary and accent with the user's brand colors when provided):
+A starting palette in the restrained navy-and-grey register consulting decks favor. The user's brand colors replace the primary and accent when given, and a topic with its own natural color world (green for sustainability, warm tones for food) can pull the primary and accent that way.
 
 | Role | Hex | Use |
 |---|---|---|
@@ -69,71 +70,57 @@ A starting palette (replace the primary and accent with the user's brand colors 
 | Greys | 5F6B76, 9AA5B1, D5DAE0, EEF1F4 | Secondary text, context series, hairlines, panels |
 | Tint | DDF1F0 | Highlighted table row, recommended column |
 
-Principles:
+Beyond the principles in `SKILL.md`:
 
-- A mostly white and grey page makes one accent unmistakable. Squint at the slide: one block should stand out. If several do, turn the extras grey.
-- Assign each color one meaning and keep it for the whole deck: the 2023 series is always mint, "existing capability" is always grey.
-- Express degree with shades of one hue; use different hues for different categories.
-- Keep to about four hues in total. Color count follows the number of categories in the data, each with a fixed meaning.
-- Pair color with a label, icon, or position so the message survives grayscale and color-blind viewing; a green "yes" and red "no" also carry the words.
-- Use white text on dark fills and dark text on light fills, with strong contrast.
-- On text-heavy pages, color can guide the eye: bold accent-colored keywords for each decision topic, a color for "yes" and another for "no", a third for notes.
+- A mostly white and grey page makes one accent unmistakable. Squinting at the slide should leave one block standing out; extras turn grey.
+- Degree reads as shades of one hue; categories read as different hues.
+- White text sits on dark fills and dark text on light fills, with strong contrast.
+- Dark backgrounds suit covers and dividers; white backgrounds suit content pages.
 
 ## Charts
 
-**Choose by message.**
+Pick the form by the reader's task using the table in `SKILL.md`. Craft that makes the chart state its conclusion:
 
-| Message | Chart |
-|---|---|
-| Trend over time | Line, or columns for a few periods |
-| Comparison and ranking | Horizontal bars sorted by value |
-| Subgroups within categories | Clustered bars |
-| Composition and size together | Stacked bars (one hue family or fixed series colors) |
-| What drove the change | Waterfall: totals in the primary color, increases and decreases in grey, the key driver in the accent or negative color |
-| Share of a whole | Pie only for up to four slices; stacked bars handle everything else |
-| Relationship between two measures | Scatter, with the notable points labeled |
+- Bar and column value axes start at zero. Hiding the value axis, putting data labels on the marks, removing gridlines, and keeping a light baseline gives a clean read.
+- When one series or bar is the focus, it takes the accent and the rest turn grey; when several series are compared on equal footing, each keeps its fixed color. A legend appears for multiple series, below the chart, in the same order as the plot.
+- A callout directly on the chart carries the key insight: growth rate, gap, turning point, threshold.
+- The slide title carries the conclusion; the small chart header at top-left gives metric, unit, and period, such as "Same-store sales growth, %".
+- Label size (12pt or larger), color, and font stay identical across every chart in the deck.
+- Columns handle about six categories comfortably; beyond that, horizontal bars sorted by value read better.
+- Waterfalls: totals in the primary color, increases and decreases in grey, the key driver in the accent or negative color.
+- On line charts where two lines run close together, labels can collide. Labeling the key points and letting a callout carry the rest, or moving the values to a small table, resolves it.
+- Numbers match the reading task: units that fit the scale (thousands, millions, billions), the same decimals within a set, rounded for comparison pages, exact for lookup pages.
 
-**Make the chart state its conclusion.**
-
-- Bar and column value axes start at zero. Hide the value axis, put data labels on the marks, remove gridlines, and keep a light baseline.
-- Highlight the series or bar under discussion with the accent and render the rest grey. Show a legend only for multiple series, below the chart, with order matching the series order in the plot.
-- Add a callout directly on the chart for the key insight: growth rate, gap, turning point, threshold.
-- Let the slide title carry the conclusion; the small chart header at top-left gives the metric, unit, and period, such as "Same-store sales growth, %".
-- Use identical label size (12pt or larger), color, and font across every chart in the deck.
-- For columns, about six categories fit comfortably; beyond that, switch to horizontal bars.
-- On line charts where two lines run close together, labels can collide. Label the key points only and let a callout carry the rest, or move the values to a small table.
-- Format numbers for the reading task: units that match the scale (thousands, millions, billions), the same decimals within a set, rounded for comparison pages, exact for lookup pages.
-
-**Scenario and sensitivity slides.** Put the scenarios in one comparison structure so the gap is visible: three columns for three scenarios (say $0.50m, $3.91m, $7.33m), a compact table of the matching payback periods, and the key threshold beside them. Direct labels carry the key figures; the full detail can go to a supporting table or notes.
+**Scenario and sensitivity slides.** Placing the scenarios in one comparison structure makes the gap visible: three columns for three scenarios (say $0.50m, $3.91m, $7.33m), a compact table of the matching payback periods, and the key threshold beside them. Direct labels carry the key figures; the full detail can go to a supporting table or notes.
 
 ## Tables
 
-Use a table when the reader needs exact values or several attributes of the same object.
+A table serves the reader who needs exact values or several attributes of the same object.
 
-- Draw only light horizontal rules (about 0.5pt in light grey), with a heavier primary-color rule under the header (about 1.5pt).
-- Bold the header; align text left and numbers right with the same decimals per column; put units in column headers.
-- Use 12-14pt text and row height of at least 0.5 in.
-- Highlight the key row with a light tint or bold the key column, so the reader finds the answer at once.
-- Group long lists by range (ranks 1-10, 11-20), with fixed field positions inside each group, so the reader locates the range first, then the object, then reads rank, change, and status across one row.
+- Light horizontal rules (about 0.5pt, light grey) with a heavier primary-color rule under the header (about 1.5pt) look clean.
+- Bold header; text left-aligned and numbers right-aligned with the same decimals per column; units in the column headers.
+- 14pt text (12pt when the table is dense) and rows at least 0.5 in tall give breathing room.
+- A light tint on the key row, or a bold key column, lets the reader find the answer at once.
+- Long lists group well by range (ranks 1-10, 11-20) with fixed field positions inside each group, so the reader finds the range first, then the object, then reads rank, change, and status across one row.
 
 ## Shapes, icons, and diagrams
 
-- Build from basic shapes in palette colors: rectangles, circles, chevrons, arrows.
+- Basic shapes in palette colors cover most needs: rectangles, circles, chevrons, arrows.
 - Numbered circles show sequence, chevrons show process or phases, up and down triangles show change, and Harvey balls (empty to full in quarters) show qualitative scores.
-- Use one icon family at a consistent line weight and size, placed in equal-size circles or squares, as visual anchors for categories.
-- Emphasize one card by changing its fill or adding a small label; keep the others neutral.
-- Position carries meaning too: a staircase from lower left to upper right shows progression, and the same grouping color shows which steps belong together.
+- One icon family at a consistent line weight and size, placed in equal-size circles or squares, makes good visual anchors for categories.
+- Emphasis on one card comes from a different fill or a small label, with the others neutral.
+- Position carries meaning too: a staircase from lower left to upper right shows progression, and a shared color shows which steps belong together.
 
 ## Slide compositions
 
-Pick the composition from the relationship the slide must show, then vary compositions across the deck.
+Pick the composition from the relationship the slide must show, and vary compositions across the deck.
 
 | Relationship | Composition | Reading order |
 |---|---|---|
 | Comparison across years | Key finding in larger text on the left, paired data on the right | Finding, then data, then the key change |
 | One result against a benchmark | Compact block: large result, short benchmark line beside it | Result, benchmark, relative performance |
 | Chart plus interpretation | Chart about 8.2 in wide, takeaway panel about 3.6 in on the right (heading and two or three points) | Chart, then panel |
-| Several key numbers | Row of two to four large numbers, each with one or two reference lines, a so-what banner below | Number, reference, meaning |
+| Several key numbers | Row of two to four large numbers, each with one or two reference lines, the number that matters most in the accent, a so-what banner below | Number, reference, meaning |
 | Stage or capability progression | Steps staggered from lower left to upper right, explanation next to each step, grouped by color or a bracket | Order, grouping, detail |
 | Composition across objects | Objects as rows, stacked bars with identical series colors and order | One row's mix, then one color across rows |
 | Condition-driven choice | Decision tree flowing left to right, yes/no on the branches, outcomes at the ends | Starting question, branch, outcome |
@@ -145,7 +132,7 @@ Pick the composition from the relationship the slide must show, then vary compos
 
 ## Common slide types
 
-- **Executive summary**: the answer in a banner, three reasons below (each with a proof number), and the decision requested. It is the top of the pyramid on one page.
+- **Executive summary**: the answer in a banner, three reasons below (each with a proof number), and the decision requested; the top of the pyramid on one page.
 - **Section divider**: section number and title, a one-line lead, and a small tracker listing all sections with the current one emphasized.
 - **Data slide**: action title, one chart or table, the reference point, a callout, the source line.
 - **Framework slide**: a MECE breakdown with every cell written in the same grammar.

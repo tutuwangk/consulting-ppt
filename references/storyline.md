@@ -17,7 +17,7 @@ Before any slide exists, write one sentence that holds the whole deck: **who sho
 
 > Cut new store openings from 200 to 120 next year and redirect the freed capital to same-store productivity and three city pilots, adding an estimated 120 million to 2027 operating profit.
 
-Treat it as a hypothesis. Write the answer you expect, list the three things that must be true for it to hold, and let those become the supporting reasons. When the evidence contradicts a reason, revise the reason; the storyline should follow the facts. If the governing thought will not come together, return to the evidence and finish the analysis; layout follows once the answer is clear.
+Treat it as a hypothesis. Write the answer you expect, list the three things that must be true for it to hold, and let those become the supporting reasons. When the evidence contradicts a reason, revise the reason; the storyline follows the facts. If the governing thought will not come together, return to the evidence; layout follows once the answer is clear. The storyline stays a living draft: sketching slides, tightening titles, and trying alternative layouts all surface findings worth writing back into it.
 
 When the material is rich, build an evidence table first: each row a fact or number, its definition and period, and any caveat that must travel with it. Flag conflicts and gaps. Then draft two or three candidate governing thoughts, choose the one the evidence supports best and the decision needs most, and expand it into the pyramid.
 
@@ -30,15 +30,15 @@ When the material is rich, build an evidence table first: each row a fact or num
 
 SCQA also works inside a deck. A section can open with its own mini-SCQA, and a single slide can use the same movement: show the current state, show the change or tension, then pose the question the following slides resolve.
 
-Example from McKinsey's State of AI report: generative AI is early yet already widely adopted (situation); many companies have not yet addressed its risks while some leaders are pulling ahead (complication); what are the leaders doing to manage the risks? (question); the body answers.
+`case-studies.md` shows SCQA in the executive summaries of BCG's and McKinsey's AI reports.
 
 ## The pyramid in depth
 
-Three checks keep the structure sound:
+Three checks help keep the structure sound:
 
-- **Vertical logic.** Read upward: each level should be the "so what" of the level below. Read downward: each level should answer "why do you say that?" or "how do you know?"
-- **Horizontal logic.** Reasons on the same level are MECE and ordered by a visible principle (chronology, structure such as people-process-technology, or importance). Three reasons is typical; two or four are fine when the content calls for it.
-- **Answer first.** Give the conclusion before the explanation at every level: deck, section, slide.
+- **Vertical logic.** Read upward: each level is the "so what" of the level below. Read downward: each level answers "why do you say that?" or "how do you know?"
+- **Horizontal logic.** Reasons on the same level are MECE and ordered by a visible principle (chronology, structure such as people-process-technology, or importance). Three reasons is typical; two or four fit when the content calls for it.
+- **Answer first.** The conclusion comes before the explanation at every level: deck, section, slide.
 
 The executive summary is the top two layers of the pyramid on one page: the answer, the reasons (each with one proof number), and the decision requested.
 
@@ -54,7 +54,7 @@ Start from the audience's state of mind. Answer-first fits most decisions.
 | Status update | Recurring steering committees | Progress versus plan, deviations and causes, decisions needed |
 | Discovery narrative | The audience resists the answer, or the finding is counterintuitive | Shared starting point, the surprising finding, the reasoning, the answer |
 
-A discovery narrative may hold the answer back for a couple of slides, within the first third of the deck, and the read-ahead version keeps the executive summary.
+A discovery narrative can hold the answer back for a couple of slides, ideally within the first third of the deck, and the read-ahead version can keep the executive summary.
 
 ## Writing action titles
 
@@ -78,7 +78,7 @@ Topic titles tell the reader where they are; action titles tell them what to thi
 
 **Plan long, set short.** While planning, write each title in full so the thinking is complete. At layout time, tighten it so it reads in one glance: keep the subject, the judgment, and the key number; move the period, scope, and other background into the chart header or the body; use short verbs. "The investment needs 3.47% more transactions for a one-year payback" tightens to "One-year payback requires 3.5% more visits". When two lines are needed, break at a natural phrase boundary. Read the tightened titles again in sequence to confirm the story still flows.
 
-Within a section, keep title sentence patterns parallel so the reader recognizes the rhythm.
+Parallel sentence patterns within a section help the reader recognize the rhythm.
 
 ## Flow between slides
 
@@ -92,12 +92,12 @@ Within a section, keep title sentence patterns parallel so the reader recognizes
 
 ## Ghost-deck template
 
-Fill one row per slide before building anything.
+One row per slide gives the story a skeleton to test before building. Revise the rows as the slides take shape.
 
 | # | Judgment the reader should make | Action title | Evidence form | Reference point | Accent lands on | Bridge to next slide |
 |---|---|---|---|---|---|---|
-| 1 | Accept the recommendation | Executive summary sentence | Text pyramid | - | - | Why is growth quality falling? |
-| 2 | Judge whether growth quality fell | Full-sentence title | Big numbers | Last year, industry average | The two declining metrics | What is driving the margin drop? |
+| 1 | Accept the recommendation | Executive summary sentence | Answer banner plus three numbered reasons with proof numbers | - | The headline profit figure | Why is growth quality falling? |
+| 2 | Judge whether growth quality fell | Full-sentence title | Big numbers | Last year, industry average | The same-store growth figure | What is driving the margin drop? |
 
 Evidence forms to choose from: funnel (conversion and loss), path diagram (from today to target), landscape (players and share), capability stack (layered capabilities), waterfall (drivers of change), matrix (options against criteria), chart, table. Choose the object that makes the title's claim visible; the title is the sentence that object proves.
 
@@ -137,4 +137,4 @@ Reading only the titles gives problem (3-4), causes (5-6), remedy (7-8), and act
 
 ## Live versus read-ahead decks
 
-A live deck uses larger type, fewer words, and speaker notes; the presenter carries the explanation. A read-ahead deck must explain itself, so it can hold denser pages with fuller annotations and an executive summary that stands alone. Decide which the user needs (it is usually clear from context) and set density to match.
+A live deck tends toward larger type, fewer words, and speaker notes; the presenter carries the explanation. A read-ahead deck explains itself, so it can hold denser pages with fuller annotations and an executive summary that stands alone. Context usually shows which one the user needs; set density to match.
